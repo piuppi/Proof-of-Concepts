@@ -1,5 +1,5 @@
 
-# Reflected XSS (Cross-Site-Scripting) in AudimexEE ver 14.1.0
+# Reflected XSS (Cross-Site-Scripting) in AudimexEE ver 14.1.0 (https://www.web-audimex.com)
 
 ### Overview
 AudimexEE before **14.1.1** is vulnerable to Reflected XSS (Cross-Site-Scripting), allows remote attackers to inject arbitrary web script or HTML via '**action, cargo and panel**' parameters, that can lead in data leakage.
