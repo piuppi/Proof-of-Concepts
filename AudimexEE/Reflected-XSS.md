@@ -7,7 +7,7 @@ AudimexEE before **14.1.1** is vulnerable to Reflected XSS (Cross-Site-Scripting
 ### Description
 Reflected cross-site scripting vulnerabilities arise when data is copied from a request and echoed into the application's immediate response in an unsafe way. The vulnerability is resent in the wal.fcgi, can be exploited via via POST request on '**action, cargo and panel**' parameters, using a payload for trigger the <IMG> HTML Tag. However it was possible to convert the request to use the GET method. 
   
-**** Important Note:** the XSS does not occur when setting the recommended security configuration parameter "**unique_error_numbers**".
+#### * Important Note: the XSS does not occur when setting the recommended security configuration parameter "**unique_error_numbers**".
 
 ### Impact
 An attacker can use the vulnerability to construct a request that, if issued by another application user, will cause JavaScript code supplied by the attacker to execute within the user's browser in the context of that user's session with the application.
