@@ -52,7 +52,7 @@ By breaking the query, you can see the Oracle error of type **ORA-01756** and vi
 ![Screenshot](response.jpg)
  
 After several attempts a valid payload was identified to exfiltrate the information from the database.
-The SQLi payload, for error-based techinque, is the following: "**AND error-based - WHERE or HAVING clause (DBMS_UTILITY.SQLID_TO_SQLHASH)**", but boolean payloads are fine too, below the evidence.
+The SQLi payload, for error-based techinque, is the following: "**AND error-based - WHERE or HAVING clause (DBMS_UTILITY.SQLID_TO_SQLHASH)**", but boolean blind payloads are fine too, below the evidence.
 
 ##### Banner Oracle:
 
@@ -66,7 +66,7 @@ The SQLi payload, for error-based techinque, is the following: "**AND error-base
 
 ![Screenshot](tables.jpg)
 
-##### Boolean Payload (current-db)
+##### Boolean Blind Payload (current-db)
 
 ![Screenshot](boolean.jpg)
 
