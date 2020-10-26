@@ -1,4 +1,4 @@
-# SQL Injection in AudimexEE ver 14.1.0
+# SQL Injection in AudimexEE ver 14.1.0 (https://www.web-audimex.com)
 
 ### Overview
 AudimexEE before **14.1.1** is vulnerable to SQL Injection. An attacker with limited privileges (Auditor) can achieve a SQL injection that can lead in data leakage.
