@@ -1,10 +1,10 @@
-# SQL Injection in AudimexEE ver X.X.X.X
+# SQL Injection in AudimexEE ver 14.1.0
 
 ### Overview
-AudimexEE before X.X.X is vulnerable to SQL Injection. An attacker with limited privileges (Auditor) can achieve a SQL injection that can lead in data leakage.
+AudimexEE before 14.1.1 is vulnerable to SQL Injection. An attacker with limited privileges (Auditor) can achieve a SQL injection that can lead in data leakage.
 
 ### Description
-The vulnerability, present in the XXXXXXXXX, can be exploited via 'XXXXX' parameters, using a payload for trigger a error-based or boolean-based blind sql injection.
+The vulnerability, present in the Documents component, can be exploited via 'object_path' parameters, using a payload for trigger a error-based or boolean-based blind sql injection.
 
 ### Impact
 This vulnerability allows attackers with limited privileges to execute arbitrary SQL commands via object_path parameter on the database server.
@@ -12,7 +12,7 @@ This vulnerability allows attackers with limited privileges to execute arbitrary
 ### Timeline
 - 2020-10-09: Discovered and reported to Audimex
 - 2020-10-09: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
-- 2020-10-12: Audimex fixed this issue in audimexEE version X.X.X.X
+- 2020-10-12: Audimex fixed this issue in audimexEE version 14.1.1
 - 2020-10-23: First public PoC
 
 ### Suggestions
@@ -28,7 +28,30 @@ You should be aware that some commonly employed and recommended mitigations for 
 ### Proof of concept (POC)
 #### Reproducing Steps
 
+In the "Documents" section a SQL Injection error-based has been identified in the search filters. 
+
+![Screenshot](index.jpg)
+
+Sending the filter search form generates a POST request where the "object_path" parameter is not properly sanitized and embeds SQL code within the query. By breaking the query, you can see the Oracle error of type ORA-01756 and view the entire query vs the backend.
+Below the evidence:
+
+![Screenshot](index.jpg)
+ 
+After several attempts a valid payload was identified to exfiltrate the information from the database.
+The SQLi typology is the following: "AND error-based - WHERE or HAVING clause (DBMS_UTILITY.SQLID_TO_SQLHASH)", below the evidence.
+
+Banner Oracle:
+
+![Screenshot](index.jpg)
+
+Available databases:
+
+![Screenshot](index.jpg) 
+
+Tables Preview
+
 ![Screenshot](index.jpg)
 
 ### Discovered by
+
 #### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) from [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
