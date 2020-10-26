@@ -28,12 +28,12 @@ You should be aware that some commonly employed and recommended mitigations for 
 ### Proof of concept (POC)
 #### Reproducing Steps
 
-After authenticating on the AudimexEE v.14 portal with an 'auditor' profile
+After authenticating on the **AudimexEE v.14** portal with an **'auditor'** profile,
 
 ![Screenshot](audimex.jpg)
 
 
-SQL Injection error-based has been identified in the search filters of the **"Documents"** section. 
+I have identified an **SQL Injection Error-Based** in the search filters of the **"Documents"** section 
 
 ![Screenshot](documents.jpg)
 
@@ -52,7 +52,7 @@ By breaking the query, you can see the Oracle error of type **ORA-01756** and vi
 ![Screenshot](response.jpg)
  
 After several attempts a valid payload was identified to exfiltrate the information from the database.
-The SQLi payload, for error-based techinque, is the following: "****AND error-based - WHERE or HAVING clause (DBMS_UTILITY.SQLID_TO_SQLHASH)**", below the evidence.
+The SQLi payload, for error-based techinque, is the following: "****AND error-based - WHERE or HAVING clause (DBMS_UTILITY.SQLID_TO_SQLHASH)**", but boolean payloads are fine too, below the evidence.
 
 ##### Banner Oracle:
 
@@ -65,6 +65,10 @@ The SQLi payload, for error-based techinque, is the following: "****AND error-ba
 ##### Tables Preview
 
 ![Screenshot](tables.jpg)
+
+##### Boolean Payload (current-db)
+
+![Screenshot](boolean.jpg)
 
 ### Discovered by
 
