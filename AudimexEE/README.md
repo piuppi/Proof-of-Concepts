@@ -28,29 +28,36 @@ You should be aware that some commonly employed and recommended mitigations for 
 ### Proof of concept (POC)
 #### Reproducing Steps
 
-In the "Documents" section a SQL Injection error-based has been identified in the search filters. 
+After authenticating on the AudimexEE v.14 portal with an auditor profile
 
-![Screenshot](index.jpg)
+![Screenshot](audimex.jpg)
+
+
+SQL Injection error-based has been identified in the search filters of the "Documents" section. 
+
+![Screenshot](documents.jpg)
 
 Sending the filter search form generates a POST request where the "object_path" parameter is not properly sanitized and embeds SQL code within the query. By breaking the query, you can see the Oracle error of type ORA-01756 and view the entire query vs the backend.
 Below the evidence:
 
-![Screenshot](index.jpg)
+![Screenshot](request1.jpg)
+![Screenshot](request1-a.jpg)
+![Screenshot](response.jpg)
  
 After several attempts a valid payload was identified to exfiltrate the information from the database.
 The SQLi typology is the following: "AND error-based - WHERE or HAVING clause (DBMS_UTILITY.SQLID_TO_SQLHASH)", below the evidence.
 
 Banner Oracle:
 
-![Screenshot](index.jpg)
+![Screenshot](Oraclebanner.jpg)
 
 Available databases:
 
-![Screenshot](index.jpg) 
+![Screenshot](databases.jpg) 
 
 Tables Preview
 
-![Screenshot](index.jpg)
+![Screenshot](tables.jpg)
 
 ### Discovered by
 
