@@ -1,10 +1,10 @@
 # SQL Injection in AudimexEE ver 14.1.0
 
 ### Overview
-AudimexEE before 14.1.1 is vulnerable to SQL Injection. An attacker with limited privileges (Auditor) can achieve a SQL injection that can lead in data leakage.
+AudimexEE before **14.1.1** is vulnerable to SQL Injection. An attacker with limited privileges (Auditor) can achieve a SQL injection that can lead in data leakage.
 
 ### Description
-The vulnerability, present in the Documents component, can be exploited via 'object_path' parameters, using a payload for trigger a error-based or boolean-based blind sql injection.
+The vulnerability, present in the Documents component, can be exploited via '**object_path**' parameters, using a payload for trigger a error-based or boolean-based blind sql injection.
 
 ### Impact
 This vulnerability allows attackers with limited privileges to execute arbitrary SQL commands via object_path parameter on the database server.
