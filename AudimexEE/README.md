@@ -7,7 +7,7 @@ AudimexEE before X.X.X is vulnerable to SQL Injection. An attacker with limited 
 The vulnerability, present in the XXXXXXXXX, can be exploited via 'XXXXX' parameters, using a payload for trigger a error-based or boolean-based blind sql injection.
 
 ### Impact
-This vulnerability allows attackers with limited privileges to execute SQL queries on the server.
+This vulnerability allows attackers with limited privileges to execute arbitrary SQL commands via object_path parameter on the database server.
 
 ### Timeline
 - 2020-10-09: Discovered and reported to Audimex
