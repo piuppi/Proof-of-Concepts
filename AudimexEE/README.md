@@ -13,7 +13,7 @@ This vulnerability allows attackers with limited privileges to execute arbitrary
 - 2020-10-09: Discovered and reported to Audimex
 - 2020-10-09: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
 - 2020-10-12: Audimex fixed this issue in audimexEE version 14.1.1
-- 2020-10-23: First public PoC
+- 2020-10-26: First public PoC
 
 ### Suggestions
 
@@ -39,25 +39,30 @@ SQL Injection error-based has been identified in the search filters of the **"Do
 
 Sending the filter search form generates a POST request where the **"object_path"** parameter is not properly sanitized and embeds SQL code within the query.
 
-By breaking the query, you can see the Oracle error of type **ORA-01756** and view the entire query vs the backend.
-Below the evidence:
+By breaking the query, you can see the Oracle error of type **ORA-01756** and view the entire query vs the backend, below the evidence.
+
+##### Request:
 
 ![Screenshot](request1.jpg)
+
 ![Screenshot](request1-a.jpg)
+
+##### Response:
+
 ![Screenshot](response.jpg)
  
 After several attempts a valid payload was identified to exfiltrate the information from the database.
 The SQLi payload, for error-based techinque, is the following: "****AND error-based - WHERE or HAVING clause (DBMS_UTILITY.SQLID_TO_SQLHASH)**", below the evidence.
 
-Banner Oracle:
+##### Banner Oracle:
 
 ![Screenshot](Oraclebanner.jpg)
 
-Available databases:
+##### Available databases:
 
 ![Screenshot](databases.jpg) 
 
-Tables Preview
+##### Tables Preview
 
 ![Screenshot](tables.jpg)
 
