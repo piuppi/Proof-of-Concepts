@@ -1,5 +1,4 @@
-# CVE-2020-XXXX
-## SQL Injection in AudimexEE ver X.X.X.X
+# SQL Injection in AudimexEE ver X.X.X.X
 
 ### Overview
 AudimexEE before X.X.X is vulnerable to SQL Injection. An attacker with limited privileges (Auditor) can achieve a SQL injection that can lead in data leakage.
