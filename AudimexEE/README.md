@@ -1,5 +1,5 @@
 # Vulnerabilities discovered in AudimexEE ver 14.1.0 (https://www.web-audimex.com)
-***
+
 ### Overview
 AudimexEE is an audit software solution for large enterprises that fulfils highest demands in terms of the implementation of auditing processes and corporate structures surrounding a powerful and highly flexible audit universe.
 
