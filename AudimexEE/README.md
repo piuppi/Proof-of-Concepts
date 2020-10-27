@@ -11,7 +11,8 @@ AudimexEE is an audit software solution for large enterprises that fulfils highe
 #### Before **14.1.1** version is vulnerable to **SQL Injection**. An attacker with limited privileges (auditor profile) can achieve a SQL injection via 'object_path' parameters, using a payload for trigger a error-based or boolean-based blind, that can lead in data leakage.
 - Link to **[SQL Injection](SQLInjection.md)**
 
-#### Before **14.1.1** version is vulnerable to Reflected XSS (Cross-Site-Scripting), allows remote attackers to inject arbitrary web script or HTML via '**action, cargo and panel**' parameters, that can lead in data leakage if you don't set the recommended security configuration parameter "unique_error_numbers".
+#### Before **14.1.1** is vulnerable to Reflected XSS (Cross-Site-Scripting) if you don't set the recommended security configuration parameter "unique_error_numbers", allows remote attackers to inject arbitrary web script or HTML via 'action, cargo and panel' parameters, that can lead in data leakage
+
 - Link to **[Reflected XSS](Reflected-XSS.md)**
 
 ### Timeline
