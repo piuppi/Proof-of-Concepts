@@ -32,7 +32,7 @@ After authenticating on the **AudimexEE v.14** portal with an **'auditor'** prof
 
 I have identified an **SQL Injection Error-Based** in the search filters of the **"Documents"** section 
 
-![Screenshot](documents.jpg)
+![Screenshot](images/documents.jpg)
 
 Sending the filter search form generates a POST request where the **"object_path"** parameter is not properly sanitized and embeds SQL code within the query.
 
@@ -40,32 +40,32 @@ By breaking the query, you can see the Oracle error of type **ORA-01756** and vi
 
 ##### Request:
 
-![Screenshot](request1.jpg)
+![Screenshot](images/request1.jpg)
 
-![Screenshot](request1-a.jpg)
+![Screenshot](images/request1-a.jpg)
 
 ##### Response:
 
-![Screenshot](response.jpg)
+![Screenshot](images/response.jpg)
  
 After several attempts a valid payload was identified to exfiltrate the information from the database.
 The SQLi payload, for error-based techinque, is the following: "**AND error-based - WHERE or HAVING clause (DBMS_UTILITY.SQLID_TO_SQLHASH)**", but boolean blind payloads are fine too, below the evidence.
 
 ##### Oracle Banner:
 
-![Screenshot](Oraclebanner.jpg)
+![Screenshot](images/Oraclebanner.jpg)
 
 ##### Available databases:
 
-![Screenshot](databases.jpg) 
+![Screenshot](images/databases.jpg) 
 
 ##### Tables Preview
 
-![Screenshot](tables.jpg)
+![Screenshot](images/tables.jpg)
 
 ##### Boolean Blind Payload (current user)
 
-![Screenshot](boolean.jpg)
+![Screenshot](images/boolean.jpg)
 
 ### Suggestions
 
