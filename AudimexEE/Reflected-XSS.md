@@ -5,7 +5,7 @@
 
 AudimexEE is an audit software solution for large enterprises that fulfils highest demands in terms of the implementation of auditing processes and corporate structures surrounding a powerful and highly flexible audit universe.
 
-#### Before **14.1.1** is vulnerable to Reflected XSS (Cross-Site-Scripting)*, allows remote attackers to inject arbitrary web script or HTML via '**action, cargo and panel**' parameters, that can lead in data leakage.
+#### Before **14.1.1** version is vulnerable to Reflected XSS (Cross-Site-Scripting)*, allows remote attackers to inject arbitrary web script or HTML via '**action, cargo and panel**' parameters, that can lead in data leakage.
 
 ### Description
 Reflected cross-site scripting vulnerabilities arise when data is copied from a request and echoed into the application's immediate response in an unsafe way. The vulnerability is resent in the wal.fcgi, can be exploited* via via POST request on '**action, cargo and panel**' parameters, using a payload for trigger the <IMG> HTML Tag. However it was possible to convert the request to use the GET method. 
