@@ -63,7 +63,7 @@ The SQLi payload, for error-based techinque, is the following: "**AND error-base
 
 ![Screenshot](tables.jpg)
 
-##### Boolean Blind Payload (current-db)
+##### Boolean Blind Payload (username-db)
 
 ![Screenshot](boolean.jpg)
 
