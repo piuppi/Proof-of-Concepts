@@ -32,28 +32,28 @@ Users can be induced to issue the attacker's crafted request in various ways. Fo
 
 After authenticating on the **AudimexEE v.14** portal with an **'any'** profile,
 
-![Screenshot](audimex.jpg)
+![Screenshot](images/audimex.jpg)
 
 
 I have identified an **Reflected XSS (Cross-Site-Scripting)** in the main section of the site wal.fcgi
 
-![Screenshot](xss-menu.jpg)
+![Screenshot](images/xss-menu.jpg)
 
 All request on contextual menus that contain references to this parameters are vulnerable to HTML/javascript code injection.
 This flaw triggers an application error that does not properly sanitize HTML/Javascript tags, below the evidence.
 
 ##### Request:
 
-![Screenshot](xss-request.jpg)
+![Screenshot](images/xss-request.jpg)
 
 
 
 ##### Response:
 
-![Screenshot](xss-response.jpg)
+![Screenshot](images/xss-response.jpg)
 
 ##### Render page:
-![Screenshot](xss-render.jpg)
+![Screenshot](images/xss-render.jpg)
 
 
 ### Suggestions
