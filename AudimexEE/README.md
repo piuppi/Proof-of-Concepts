@@ -27,7 +27,7 @@ This vulnerability allows attackers with limited privileges to execute arbitrary
 
 After authenticating on the **AudimexEE v.14** portal with an **'auditor'** profile,
 
-![Screenshot](audimex.jpg)
+![Screenshot](images/audimex.jpg)
 
 
 I have identified an **SQL Injection Error-Based** in the search filters of the **"Documents"** section 
