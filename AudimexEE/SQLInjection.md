@@ -35,9 +35,8 @@ I have identified an **SQL Injection Error-Based** in the search filters of the 
 
 ![Screenshot](images/documents.jpg)
 
-Sending the filter search form generates a POST request where the **"object_path"** parameter is not properly sanitized and embeds SQL code within the query.
-
-By breaking the query, you can see the Oracle error of type **ORA-01756** and view the entire query vs the backend, below the evidence.
+Sending the filter search form generates a POST request in which the parameter **"object_path "** is not properly sanitized and allows to embed SQL code into the query.
+By breaking the query, you can see the Oracle error of type **ORA-01756** and view the entire query compared to the backend, below the evidence.
 
 ##### Request:
 
