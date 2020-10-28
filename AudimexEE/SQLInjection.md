@@ -8,7 +8,7 @@ AudimexEE is an audit software solution for large enterprises that fulfils highe
 
 
 ### Description
-The SQLi vulnerability, present in the Documents component, can be exploited via '**object_path**' parameters, using a payload for trigger a error-based or boolean-based blind sql injection.
+The SQLi vulnerability, present in the Documents component, can be exploited via '**object_path**' parameter, using a payload for trigger a error-based or boolean-based blind sql injection.
 
 ### Impact
 This vulnerability allows attackers with limited privileges to execute arbitrary SQL commands on the database server.
