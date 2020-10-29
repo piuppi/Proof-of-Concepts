@@ -4,8 +4,8 @@
 AudimexEE is an audit software solution for large enterprises that fulfils highest demands in terms of the implementation of auditing processes and corporate structures surrounding a powerful and highly flexible audit universe.
 
 ### Discovered by
-#### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
-
+#### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) [(@piuppi)](https://twitter.com/piuppi) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
+ 
 ### Proof of concept (POC)
 
 #### AudimexEE before **14.1.1** version is vulnerable to **SQL Injection**. An attacker with limited privileges (auditor profile) can achieve a SQL injection via 'object_path' parameter, using a payload to trigger a 'error-based' or 'boolean-based blind', that can lead in data leakage.
