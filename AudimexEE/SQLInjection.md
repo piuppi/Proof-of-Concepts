@@ -21,7 +21,7 @@ This vulnerability allows attackers with limited privileges to execute arbitrary
 
 ### Discovered by
 
-#### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) from [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
+#### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
 
 ### Proof of concept (POC)
 #### Reproducing Steps
