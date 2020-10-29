@@ -4,7 +4,7 @@
 AudimexEE is an audit software solution for large enterprises that fulfils highest demands in terms of the implementation of auditing processes and corporate structures surrounding a powerful and highly flexible audit universe.
 
 ### Discovered by
-#### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) [(@piuppi)](https://twitter.com/piuppi) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
+#### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) ([@piuppi](https://twitter.com/piuppi)) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
  
 ### Proof of concept (POC)
 
