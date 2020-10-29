@@ -25,7 +25,7 @@ Users can be induced to issue the attacker's crafted request in various ways. Fo
 
 ### Discovered by
 
-#### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
+#### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) ([@piuppi](https://twitter.com/piuppi)) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
 
 ### Proof of concept (POC)
 #### Reproducing Steps
