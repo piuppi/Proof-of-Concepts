@@ -1,4 +1,4 @@
-# Vulnerabilities discovered in 'WSO2 Enterprise Integrator version 6.6.0 and earlier' (https://wso2.com)
+# Vulnerabilities discovered in 'WSO2 Enterprise Integrator version 6.6.0' (https://wso2.com)
 
 ### Overview
 WSO2 Enterprise Integrator (WSO2 EI) is an open-source hybrid integration platform providing graphical and CLI tooling, integration runtimes, and monitoring with a variety of deployment options.
