@@ -4,7 +4,7 @@
 WSO2 Enterprise Integrator (WSO2 EI) is an open-source hybrid integration platform providing graphical and CLI tooling, integration runtimes, and monitoring with a variety of deployment options.
 
 ### Discovered by
-#### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) [(@piuppi)](https://twitter.com/piuppi) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
+#### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) ([@piuppi](https://twitter.com/piuppi)) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
 
 ### Proof of concept (POC)
 
