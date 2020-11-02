@@ -10,7 +10,9 @@ Outlook Web Access is a personal information manager web app from Microsoft. It 
 
 #### Microsoft Office365 OWA is vulnerable to Stored XSS (Cross-Site-Scripting), which allows remote attackers to inject arbitrary HTML or web scripts by creating an ad-hoc email signature containing a malicious link, that can lead to data leakage. The XSS is executed whenever a new email message is created, however running a logoff and logon no longer triggers it.
 
-- Go to **[Stored XSS](Stored-XSS.md)**
+#### Reproducing Steps
+
+
 
 ### Timeline
 - **2019-06-25**: Discovered and reported to Microsoft
