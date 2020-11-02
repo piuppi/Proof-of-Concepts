@@ -18,10 +18,10 @@ The attacker-supplied code can perform a wide variety of actions, such as perfor
 Users can be induced to issue the attacker's crafted request in various ways. For example, the attacker can send a victim a link containing a malicious URL in an email or instant message.
 
 ### Timeline
-- 2020-10-09: Discovered and reported to Audimex
-- 2020-10-09: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
-- 2020-10-12: Audimex fixed this issue in audimexEE version 14.1.1
-- 2020-10-26: First public PoC and requested CVE ID to MITRE
+- **2020-10-09**: Discovered and reported to Audimex
+- **2020-10-09**: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
+- **2020-10-12**: Audimex fixed this issue in audimexEE version 14.1.1
+- **2020-10-26**: First public PoC and requested CVE ID to MITRE
 
 ### Discovered by
 
