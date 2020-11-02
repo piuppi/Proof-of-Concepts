@@ -4,11 +4,11 @@
 ### Overview
 AudimexEE is an audit software solution for large enterprises that fulfils highest demands in terms of the implementation of auditing processes and corporate structures surrounding a powerful and highly flexible audit universe.
 
-#### Before **14.1.1** version is vulnerable to **SQL Injection**. An attacker with limited privileges (auditor profile) can achieve a SQL injection that can lead in data leakage.
+#### Versions prior to 14.1.1 are vulnerable to SQL Injection. An attacker with limited privileges (auditor profile) can perform a SQL injection that can lead to data leakage.
 
 
 ### Description
-The SQLi vulnerability, present in the Documents component, can be exploited via '**object_path**' parameter, using a payload to trigger a 'error-based' or 'boolean-based blind' SQL injection.
+The SQLi vulnerability, in the Documents component, can be exploited via '**object_path**' parameter, using a payload to trigger an 'error-based' or 'boolean-based blind' SQL injection.
 
 ### Impact
 This vulnerability allows attackers with limited privileges to execute arbitrary SQL commands on the database server.
@@ -31,12 +31,12 @@ After authenticating on the **AudimexEE v.14** portal with an **'auditor'** prof
 ![Screenshot](images/audimex.jpg)
 
 
-I have identified an **SQL Injection Error-Based** in the search filters of the **"Documents"** section 
+I have identified an **Error-Based SQL Injection** in the search filters of the **"Documents"** section 
 
 ![Screenshot](images/documents.jpg)
 
-Sending the filter search form generates a POST request in which the parameter **"object_path "** is not properly sanitized and allows to embed SQL code into the query.
-By breaking the query, you can see the Oracle error of type **ORA-01756** and view the entire query compared to the backend, below the evidence.
+Sending the filter search form generates a POST request in which the **"object_path"** parameter is not properly sanitized and allows SQL code to be embedded into the query.
+By breaking the query, you can see the Oracle error type **ORA-01756** and view the entire query issued to the backend, below the evidence.
 
 ##### Request:
 
@@ -49,7 +49,7 @@ By breaking the query, you can see the Oracle error of type **ORA-01756** and vi
 ![Screenshot](images/response.jpg)
  
 After several attempts a valid payload was identified to exfiltrate the information from the database.
-The SQLi payload, for error-based techinque, is the following: "**AND error-based - WHERE or HAVING clause (DBMS_UTILITY.SQLID_TO_SQLHASH)**", but boolean blind payloads are fine too, below the evidence.
+The SQLi payload, for the error-based techinque, is the following: "**AND error-based - WHERE or HAVING clause (DBMS_UTILITY.SQLID_TO_SQLHASH)**", but boolean blind payloads are fine too, below the evidence.
 
 ##### Oracle Banner:
 
