@@ -16,6 +16,10 @@ Outlook Web Access is a personal information manager web app from Microsoft. It 
 
 ##### Used payload: "></a></div><svg/onload=alert(String.fromCharCode(88,83,83))><!--
 
+below the document.cookie payload:
+
+![screenshoot](images/document-cookie_R.png)
+
 ### Timeline
 - **2019-06-25**: Discovered and reported to Microsoft
 - **2019-06-25**: Got instant response from Microsoft Security Response Center, "Thank you for contacting the Microsoft Security Response Center (MSRC). Your report has been received and you should receive a follow-up message from the case manager once your case has been fully reviewed."
