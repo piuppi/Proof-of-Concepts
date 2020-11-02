@@ -12,7 +12,7 @@ AudimexEE is an audit software solution for large enterprises that fulfils highe
 
 - Go to **[SQL Injection](SQLInjection.md)**
 
-#### AudimexEE versions prior to 14.1.1 are vulnerable to Reflected XSS (Cross-Site-Scripting) if you don't set the recommended security configuration parameter "unique_error_numbers", which allows remote attackers to inject arbitrary web scripts or HTML via the 'action, cargo and panel' parameters, that can lead to data leakage.
+#### AudimexEE versions prior to 14.1.1 are vulnerable to Reflected XSS (Cross-Site-Scripting) if you don't set the recommended security configuration parameter "unique_error_numbers". This vulnerability allows remote attackers to inject arbitrary web scripts or HTML via the 'action, cargo and panel' parameters, that can lead to data leakage.
 
 - Go to **[Reflected XSS](Reflected-XSS.md)**
 
