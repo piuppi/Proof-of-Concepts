@@ -12,7 +12,7 @@ Outlook Web Access is a personal information manager web app from Microsoft. It 
 
 #### Reproducing Steps
 
-![Screenshot](/images/XSS-poc_R.gif)
+![](/images/XSS-poc_R.gif)
 
 
 ### Timeline
