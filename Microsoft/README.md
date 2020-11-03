@@ -18,15 +18,13 @@ The security impact of cross-site scripting vulnerabilities is dependent upon th
 ### Proof of concept (POC)
 #### Reproducing Steps
 
+##### Payload: ```"></a></div><svg/onload=alert(String.fromCharCode(88,83,83))><!--```
+    
 ![](images/XSS-poc_R.gif)
 
-##### Document cookie: 
-![screenshoot](images/document-cookie_R.png)
-
-##### these are the payloads that I have identified:
-```"></a></div><svg/onload=alert(String.fromCharCode(88,83,83))><!--```
+##### I also was able to extract the document.cookie with this payload: ```<%<!--'%><script>alert(document.cookie);</script -->```
     
-```<%<!--'%><script>alert(document.cookie);</script -->```
+![screenshoot](images/document-cookie_R.png)
 
 ### Severity
 This vulnerability has been evaluated by Microsoft with a high severity (7.8-8.9), see below:
