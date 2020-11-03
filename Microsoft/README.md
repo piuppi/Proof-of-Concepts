@@ -23,7 +23,7 @@ The security impact of cross-site scripting vulnerabilities is dependent upon th
 ##### Document cookie: 
 ![screenshoot](images/document-cookie_R.png)
 
-##### Used payload:
+##### This is the payload that I have used:
 ```"></a></div><svg/onload=alert(String.fromCharCode(88,83,83))><!--```
     
 ```<%<!--'%><script>alert(document.cookie);</script -->```
