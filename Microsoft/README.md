@@ -28,6 +28,13 @@ The security impact of cross-site scripting vulnerabilities is dependent upon th
     
 ```<%<!--'%><script>alert(document.cookie);</script -->```
 
+
+### Suggestions
+In most situations where user-controllable data is copied into application responses, cross-site scripting attacks can be prevented using two layers of defenses:
+- Input should be validated as strictly as possible on arrival, given the kind of content that it is expected to contain. For example, personal names should consist of alphabetical and a small range of typographical characters, and be relatively short; a year of birth should consist of exactly four numerals; email addresses should match a well-defined regular expression. Input which fails the validation should be rejected, not sanitized.
+- User input should be HTML-encoded at any point where it is copied into application responses. All HTML metacharacters, including < > " ' and =, should be replaced with the corresponding HTML entities (&lt; &gt; etc).
+In cases where the application's functionality allows users to author content using a restricted subset of HTML tags and attributes (for example, blog comments which allow limited formatting and linking), it is necessary to parse the supplied HTML to validate that it does not use any dangerous syntax; this is a non-trivial task.
+
 ### Timeline
 - **2019-06-25**: Discovered and reported to Microsoft
 - **2019-06-25**: Got instant response from Microsoft Security Response Center, "Thank you for contacting the Microsoft Security Response Center (MSRC). Your report has been received and you should receive a follow-up message from the case manager once your case has been fully reviewed."
