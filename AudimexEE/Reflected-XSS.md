@@ -8,14 +8,12 @@ AudimexEE is an audit software solution for large enterprises that fulfils highe
 #### AudimexEE versions prior to 14.1.1 are vulnerable to Reflected XSS (Cross-Site-Scripting)*, which allows remote attackers to inject arbitrary web scripts or HTML via the 'action, cargo and panel' parameters, that can lead to data leakage.
 
 ### Description
-Reflected cross-site scripting vulnerabilities arise when data is copied from a request and echoed into the application's immediate response in an unsafe way. The vulnerability is present in the wal.fcgi, can be exploited* via POST request on '**action, cargo and panel**' parameters, using a payload to trigger the <IMG> HTML Tag. However it was possible to convert the request to use the GET method. 
+Reflected cross-site scripting vulnerabilities arise when data is copied from a request and echoed into the application's immediate response in an unsafe way. The vulnerability is present in the wal.fcgi, can be exploited* via POST request on '**action, cargo and panel**' parameters, using a payload to trigger the HTML Tag. However it was possible to convert the request to use the GET method.
   
 #### * Important Note: the XSS does not occur when setting the recommended security configuration parameter "**unique_error_numbers**".
 
 ### Impact
-An attacker can use the vulnerability to construct a request that, if issued by another application user, will cause JavaScript code supplied by the attacker to execute within the user's browser in the context of that user's session with the application.
-The attacker-supplied code can perform a wide variety of actions, such as performing arbitrary actions on the victim's behalf, and logging their keystrokes.
-Users can be induced to issue the attacker's crafted request in various ways. For example, the attacker can send a victim a link containing a malicious URL in an email or instant message.
+An attacker can use the vulnerability to construct a request that, if issued by another application user, will cause JavaScript code supplied by the attacker to be executed within his browser in his session context of the application. The attacker-supplied code can perform a wide variety of actions, such as performing arbitrary actions on victim's behalf, and logging their keystrokes. Users can be induced to initiate the attacker's crafted request in various ways. For example, the attacker could send a victim a link containing a malicious URL via email or instant message.
 
 ### Timeline
 - **2020-10-09**: Discovered and reported to Audimex
@@ -35,12 +33,12 @@ After authenticating on the **AudimexEE v.14** portal with an **'any'** profile,
 ![Screenshot](images/audimex.jpg)
 
 
-I have identified an **Reflected XSS (Cross-Site-Scripting)** in the main section of the site wal.fcgi
+I have identified a **Reflected XSS (Cross-Site-Scripting)** in the main section of the site wal.fcgi
 
 ![Screenshot](images/xss-menu.jpg)
 
-All request on contextual menus that contain references to this parameters are vulnerable to HTML/javascript code injection.
-This flaw triggers an application error that does not properly sanitize HTML/Javascript tags, below the evidence.
+All contextual menu requests that contain references to this parameters are vulnerable to HTML/javascript code injection. This flaw triggers an application error that does not properly sanitize HTML/Javascript tags, below the evidence.
+
 
 ##### Request:
 
