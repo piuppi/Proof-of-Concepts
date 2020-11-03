@@ -37,6 +37,10 @@ In most situations where user-controllable data is copied into application respo
 - User input should be HTML-encoded at any point where it is copied into application responses. All HTML metacharacters, including < > " ' and =, should be replaced with the corresponding HTML entities (&lt; &gt; etc).
 In cases where the application's functionality allows users to author content using a restricted subset of HTML tags and attributes (for example, blog comments which allow limited formatting and linking), it is necessary to parse the supplied HTML to validate that it does not use any dangerous syntax; this is a non-trivial task.
 
+### CVSS Score
+
+![screenshoot](images/bounty.jpg)
+
 ### Timeline
 - **2019-06-25**: Discovered and reported to Microsoft
 - **2019-06-25**: Got instant response from Microsoft Security Response Center, "Thank you for contacting the Microsoft Security Response Center (MSRC). Your report has been received and you should receive a follow-up message from the case manager once your case has been fully reviewed."
