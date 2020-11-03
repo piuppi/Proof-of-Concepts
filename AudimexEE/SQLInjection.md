@@ -14,10 +14,10 @@ The SQLi vulnerability, in the Documents component, can be exploited via '**obje
 This vulnerability allows attackers with limited privileges to execute arbitrary SQL commands on the database server.
 
 ### Timeline
-- 2020-10-09: Discovered and reported to Audimex
-- 2020-10-09: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
-- 2020-10-12: Audimex fixed this issue in audimexEE version 14.1.1
-- 2020-10-26: First public PoC and requested CVE ID to MITRE
+- **2020-10-09**: Discovered and reported to Audimex
+- **2020-10-09**: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
+- **2020-10-12**: Audimex fixed this issue in audimexEE version 14.1.1
+- **2020-10-26**: First public PoC and requested CVE ID to MITRE
 
 ### Discovered by
 
