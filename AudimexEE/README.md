@@ -17,7 +17,7 @@ AudimexEE is an audit software solution for large enterprises that fulfils highe
 - Go to **[Reflected XSS](Reflected-XSS.md)**
 
 ### Timeline
-- 2020-10-09: Discovered and reported to Audimex
-- 2020-10-09: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
-- 2020-10-12: Audimex fixed this issue in audimexEE version 14.1.1
-- 2020-10-26: First public PoCs and requested CVE ID to MITRE
+- **2020-10-09**: Discovered and reported to Audimex
+- **2020-10-09**: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
+- **2020-10-12**: Audimex fixed this issue in audimexEE version 14.1.1
+- **2020-10-26**: First public PoCs and requested CVE ID to MITRE
