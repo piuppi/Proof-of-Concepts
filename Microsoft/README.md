@@ -28,6 +28,7 @@ The security impact of cross-site scripting vulnerabilities is dependent upon th
 
 ### Severity
 This vulnerability has been evaluated by Microsoft with a high severity (7.8-8.9), see below:
+    
 ![screenshoot](images/bounty.jpg)
 
 ### Suggestions
