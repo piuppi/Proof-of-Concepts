@@ -18,7 +18,7 @@ The security impact of cross-site scripting vulnerabilities is dependent upon th
 ### Proof of concept (POC)
 #### Reproducing Steps
 
-##### Payload: ```"></a></div><svg/onload=alert(String.fromCharCode(88,83,83))><!--```
+##### identified payload: ```"></a></div><svg/onload=alert(String.fromCharCode(88,83,83))><!--```
     
 ![](images/XSS-poc_R.gif)
 
