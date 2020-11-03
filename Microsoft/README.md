@@ -36,7 +36,7 @@ In most situations where user-controllable data is copied into application respo
 In cases where the application's functionality allows users to author content using a restricted subset of HTML tags and attributes (for example, blog comments which allow limited formatting and linking), it is necessary to parse the supplied HTML to validate that it does not use any dangerous syntax; this is a non-trivial task.
 
 ### Severity
-
+This vulnerability has been evaluated by Microsoft with a high severity (7.8-8.9), see below:
 ![screenshoot](images/bounty.jpg)
 
 ### Timeline
