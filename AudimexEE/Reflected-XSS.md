@@ -14,7 +14,7 @@ Reflected cross-site scripting vulnerabilities arise when data is copied from a 
 An attacker can use the vulnerability to construct a request that, if issued by another application user, will cause JavaScript code supplied by the attacker to be executed within his browser in his session context of the application. The attacker-supplied code can perform a wide variety of actions, such as performing arbitrary actions on victim's behalf, and logging their keystrokes. Users can be induced to initiate the attacker's crafted request in various ways. For example, the attacker could send a victim a link containing a malicious URL via email or instant message.
 
 ### Timeline
-- **2020-10-09**: Discovered and reported to Audimex
+- **2020-10-09**: Discovered and reported to [Audimex](https://www.web-audimex.com)
 - **2020-10-09**: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
 - **2020-10-12**: Audimex fixed this issue in audimexEE version 14.1.1
 - **2020-11-05**: I have obtained the [CVE-2020-28047](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28047) and published the PoC
