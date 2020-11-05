@@ -1,11 +1,9 @@
 
-# Reflected XSS (Cross-Site-Scripting) in AudimexEE ver 14.1.0 (https://www.web-audimex.com)
+# CVE-2020-28047: AudimexEE before 14.1.1 is vulnerable to Reflected XSS (Cross-Site-Scripting). If the recommended security configuration parameter "unique_error_numbers" is not set, remote attackers can inject arbitrary web script or HTML via 'action, cargo, panel' parameters that can lead to data leakage.
 
 ### Overview
 
-AudimexEE is an audit software solution for large enterprises that fulfils highest demands in terms of the implementation of auditing processes and corporate structures surrounding a powerful and highly flexible audit universe.
-
-#### AudimexEE versions prior to 14.1.1 are vulnerable to Reflected XSS (Cross-Site-Scripting)*, which allows remote attackers to inject arbitrary web scripts or HTML via the 'action, cargo and panel' parameters, that can lead to data leakage.
+AudimexEE (https://www.web-audimex.com) is an audit software solution for large enterprises that fulfils highest demands in terms of the implementation of auditing processes and corporate structures surrounding a powerful and highly flexible audit universe.
 
 ### Description
 Reflected cross-site scripting vulnerabilities arise when data is copied from a request and echoed into the application's immediate response in an unsafe way. The vulnerability is present in the wal.fcgi, can be exploited* via POST request on '**action, cargo and panel**' parameters, using a payload to trigger the HTML Tag. However it was possible to convert the request to use the GET method.
@@ -19,7 +17,7 @@ An attacker can use the vulnerability to construct a request that, if issued by 
 - **2020-10-09**: Discovered and reported to Audimex
 - **2020-10-09**: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
 - **2020-10-12**: Audimex fixed this issue in audimexEE version 14.1.1
-- **2020-10-26**: First public PoC and requested CVE ID to MITRE
+- **2020-10-26**: First public PoC
 
 ### Discovered by
 
