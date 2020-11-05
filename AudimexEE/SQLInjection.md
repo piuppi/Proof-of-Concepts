@@ -1,11 +1,7 @@
-
-# SQL Injection in AudimexEE ver 14.1.0 (https://www.web-audimex.com)
+# CVE-2020-28115: SQL Injection vulnerability in "Documents component" found in AudimexEE version 14.1.0 allows an attacker to execute arbitrary SQL commands via the object_path parameter.
 
 ### Overview
-AudimexEE is an audit software solution for large enterprises that fulfils highest demands in terms of the implementation of auditing processes and corporate structures surrounding a powerful and highly flexible audit universe.
-
-#### Versions prior to 14.1.1 are vulnerable to SQL Injection. An attacker with limited privileges (auditor profile) can perform a SQL injection that can lead to data leakage.
-
+AudimexEE (https://www.web-audimex.com) is an audit software solution for large enterprises that fulfils highest demands in terms of the implementation of auditing processes and corporate structures surrounding a powerful and highly flexible audit universe.
 
 ### Description
 The SQLi vulnerability, in the Documents component, can be exploited via '**object_path**' parameter, using a payload to trigger an 'error-based' or 'boolean-based blind' SQL injection.
@@ -17,7 +13,7 @@ This vulnerability allows attackers with limited privileges to execute arbitrary
 - **2020-10-09**: Discovered and reported to Audimex
 - **2020-10-09**: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
 - **2020-10-12**: Audimex fixed this issue in audimexEE version 14.1.1
-- **2020-10-26**: First public PoC and requested CVE ID to MITRE
+- **2020-10-26**: First public PoC
 
 ### Discovered by
 
