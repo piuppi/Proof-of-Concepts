@@ -17,7 +17,7 @@ AudimexEE ([https://www.web-audimex.com/audimexee](https://www.web-audimex.com/a
 - Go to **[CVE-2020-28047](Reflected-XSS.md)**
 
 ### Timeline
-- **2020-10-09**: Discovered and reported to [Audimex]([https://www.web-audimex.com)
+- **2020-10-09**: Discovered and reported to [Audimex](https://www.web-audimex.com)
 - **2020-10-09**: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
 - **2020-10-12**: Audimex fixed this issue in audimexEE version 14.1.1
 - **2020-10-29**: I have obtained the CVE IDs and published the PoC
