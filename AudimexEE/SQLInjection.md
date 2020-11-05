@@ -13,7 +13,7 @@ This vulnerability allows attackers with limited privileges to execute arbitrary
 - **2020-10-09**: Discovered and reported to Audimex
 - **2020-10-09**: Got instant response from Audimex development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
 - **2020-10-12**: Audimex fixed this issue in audimexEE version 14.1.1
-- **2020-10-26**: First public PoC
+- **2020-11-05: I have obtained the [CVE-2020-28115](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28115) and published the PoC
 
 ### Discovered by
 
