@@ -12,7 +12,7 @@ Knowage ([https://www.knowage-suite.com](https://www.knowage-suite.com)) is the 
 
 #### SQL Injection vulnerability found in Knowage Suite version 7.1 in the analytics driver component when running a report.
 
-- Go to **[XXXX-XXXX-XXXX](SQLi-KnowageSuite.md)**
+- Go to **[PoC](SQLi-KnowageSuite.md)**
 
 ### Timeline
 - **2021-02-09**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
