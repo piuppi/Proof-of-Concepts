@@ -50,7 +50,7 @@ Once the correct payload was found, it was possible to exfiltrate various sensit
 
 ![Screenshot](images/sqli-sbi_user-password.png) 
 
-After retrieving the hashes of the users, we analysed the source code available **[here](https://github.com/KnowageLabs/Knowage-Server/blob/master/cas/src/main/java/it/eng/spagobi/authentication/handler/AsymmetricProviderSingleton.java)** relating to the mechanism for storing user passwords in the database, and it emerged that the hashes are of type **HMAC-SHA1** and the **secret** is hard-coded in the **AsymmetricProviderSingleton.java** page.
+After retrieving the hashes of the users, we analysed the source code available **[here](https://github.com/KnowageLabs/Knowage-Server/blob/master/cas/src/main/java/it/eng/spagobi/authentication/handler/AsymmetricProviderSingleton.java)** relating to the mechanism for storing user passwords in the database, and it emerged that the hashes are of type **HMAC-SHA1** and the **secret** is hard-coded in the **AsymmetricProviderSingleton.java** file.
 
 ![Screenshot](images/sqli-hmacsha1.png)
 
