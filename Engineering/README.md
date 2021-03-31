@@ -14,6 +14,10 @@ Knowage ([https://www.knowage-suite.com](https://www.knowage-suite.com)) is the 
 
 - Go to **[PoC](SQLi-KnowageSuite.md)**
 
+#### Knowage Suite before 7.4 is vulnerable to Reflected XSS (Cross-Site-Scripting). An attacker can inject arbitrary web script in /restful-services/publish' via the 'EXEC_FROM' parameter that can lead to data leakage.
+
+- Go to **[PoC](XSS-KnowageSuite.md)**
+
 ### Timeline
 - **2021-02-09**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
 - **2021-02-09**: Got instant response from Knowage development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
