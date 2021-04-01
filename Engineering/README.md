@@ -22,6 +22,10 @@ Knowage ([https://www.knowage-suite.com](https://www.knowage-suite.com)) is the 
 
 - Go to **[PoC](HTLM-Injection-KnowageSuite.md)**
 
+#### - Knowage Suite before 7.4 is vulnerable to Cross-Site Script Inclusion (XSSI). An attacker can inject arbitrary external script in '/knowagecockpitengine/api/1.0/pages/execute' via the 'SBI_HOST' parameters.
+
+- Go to **[PoC](XSSI-KnowageSuite.md)**
+
 ### Timeline
 - **2021-02-09**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
 - **2021-02-09**: Got instant response from Knowage development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
