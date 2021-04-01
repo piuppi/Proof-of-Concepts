@@ -12,10 +12,10 @@ The vulnerability is present in the '**/restful-services/2.0/analyticalDrivers**
 An attacker can send HTML code through any vulnerable form field to change the design of the website or any information displayed to the user, saving the information persistently on the site (e.g. database). As a result, the user will see the data sent by the attacker every time he calls up the vulnerable page.
 
 ### Timeline
-- **2021-02-12**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
-- **2021-02-12**: Got instant response from Knowage development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback.
+- **2021-02-09**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
+- **2021-02-09**: Got instant response from Knowage development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback.
 - **2021-03-22**: Knowage Team fixed this issue in Knowage version 7.4.0
-- **2021-04-01**: We have requested the CVE-ID to the MITRE
+- **2021-03-30**: We have requested the CVE-ID to the MITRE
 
 ### Discovered by
 
