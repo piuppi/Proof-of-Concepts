@@ -10,15 +10,15 @@ Knowage ([https://www.knowage-suite.com](https://www.knowage-suite.com)) is the 
  
 ### Proof of concept (POC)
 
-#### SQL Injection vulnerability found in Knowage Suite version 7.1 in the analytics driver component when running a report.
+#### - SQL Injection vulnerability found in Knowage Suite version 7.1 in the analytics driver component when running a report.
 
 - Go to **[PoC](SQLi-KnowageSuite.md)**
 
-#### Knowage Suite before 7.4 is vulnerable to Reflected XSS (Cross-Site-Scripting). An attacker can inject arbitrary web script in /restful-services/publish' via the 'EXEC_FROM' parameter that can lead to data leakage.
+#### - Knowage Suite before 7.4 is vulnerable to Reflected XSS (Cross-Site-Scripting). An attacker can inject arbitrary web script in /restful-services/publish' via the 'EXEC_FROM' parameter that can lead to data leakage.
 
 - Go to **[PoC](XSS-KnowageSuite.md)**
 
-#### Stored HTML Injection vulnerability found in Knowage Suite version 7.1. An attacker can inject arbitrary HTML in "/restful-services/2.0/analyticalDrivers" via the 'LABEL' and 'NAME' parameters.
+#### - Stored HTML Injection vulnerability found in Knowage Suite version 7.1. An attacker can inject arbitrary HTML in "/restful-services/2.0/analyticalDrivers" via the 'LABEL' and 'NAME' parameters.
 
 - Go to **[PoC](HTLM-Injection-KnowageSuite.md)**
 
