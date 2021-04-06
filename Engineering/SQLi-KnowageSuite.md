@@ -1,4 +1,4 @@
-# CVE-2021-30055 - SQL Injection vulnerability found in Knowage Suite version 7.1 in the analytics driver component when running a report.
+# CVE-2021-30055 : A SQL injection vulnerability in Knowage Suite version 7.1 exists in the documentexecution/url analytics driver component via the 'par_year' parameter when running a report.
 
 ### Overview
 Knowage ([https://www.knowage-suite.com](https://www.knowage-suite.com)) is the Open Source Business Analytics Suite combining traditional and big data sources into valuable and meaningful information.
