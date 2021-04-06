@@ -18,7 +18,7 @@ Knowage ([https://www.knowage-suite.com](https://www.knowage-suite.com)) is the 
 
 - Go to **[CVE-2021-30056](XSS-KnowageSuite.md)**
 
-#### CVE-2021-30057 : Stored HTML Injection vulnerability found in Knowage Suite version 7.1. An attacker can inject arbitrary HTML in "/restful-services/2.0/analyticalDrivers" via the 'LABEL' and 'NAME' parameters.
+#### CVE-2021-30057 : A stored HTML injection vulnerability exists in Knowage Suite version 7.1. An attacker can inject arbitrary HTML in "/restful-services/2.0/analyticalDrivers" via the 'LABEL' and 'NAME' parameters.
 
 - Go to **[CVE-2021-30057](HTLM-Injection-KnowageSuite.md)**
 
