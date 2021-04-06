@@ -1,5 +1,5 @@
 
-# Knowage Suite before 7.4 is vulnerable to Reflected XSS (Cross-Site-Scripting). An attacker can inject arbitrary web script in /restful-services/publish' via the 'EXEC_FROM' parameter that can lead to data leakage.
+# CVE-2021-30056 : Knowage Suite before 7.4 is vulnerable to Reflected XSS (Cross-Site-Scripting). An attacker can inject arbitrary web script in /restful-services/publish' via the 'EXEC_FROM' parameter that can lead to data leakage.
 
 ### Overview
 
@@ -15,7 +15,7 @@ An attacker can use the vulnerability to construct a request that, if issued by 
 - **2021-02-09**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
 - **2021-02-09**: Got instant response from Knowage development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback.
 - **2021-03-22**: Knowage Team fixed this issue in Knowage version 7.4.0
-- **2021-03-30**: We have requested the CVE-ID to the MITRE
+- **2021-04-05**: I have obtained the [CVE-2021-30056](https://nvd.nist.gov/vuln/detail/CVE-2021-30056) and published the PoC
 
 ### Discovered by
 
