@@ -1,5 +1,5 @@
 
-# CVE-2021-30058 : Knowage Suite before 7.4 is vulnerable to Cross-Site Script Inclusion (XSSI). An attacker can inject arbitrary external script in '/knowagecockpitengine/api/1.0/pages/execute' via the 'SBI_HOST' parameters.
+# CVE-2021-30058 : Knowage Suite before 7.4 is vulnerable to cross-site scripting (XSS). An attacker can inject arbitrary external script in '/knowagecockpitengine/api/1.0/pages/execute' via the 'SBI_HOST' parameter.
 
 ### Overview
 
