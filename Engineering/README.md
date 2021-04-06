@@ -10,19 +10,19 @@ Knowage ([https://www.knowage-suite.com](https://www.knowage-suite.com)) is the 
  
 ### Proof of concept (POC)
 
-#### CVE-2021-30055 - SQL Injection vulnerability found in Knowage Suite version 7.1 in the analytics driver component when running a report.
+#### CVE-2021-30055 : A SQL injection vulnerability in Knowage Suite version 7.1 exists in the documentexecution/url analytics driver component via the 'par_year' parameter when running a report.
 
 - Go to **[CVE-2021-30055](SQLi-KnowageSuite.md)**
 
-#### CVE-2021-30056 - Knowage Suite before 7.4 is vulnerable to Reflected XSS (Cross-Site-Scripting). An attacker can inject arbitrary web script in /restful-services/publish' via the 'EXEC_FROM' parameter that can lead to data leakage.
+#### CVE-2021-30056 : Knowage Suite before 7.4 is vulnerable to reflected cross-site scripting (XSS). An attacker can inject arbitrary web script in /restful-services/publish via the 'EXEC_FROM' parameter that can lead to data leakage.
 
 - Go to **[CVE-2021-30056](XSS-KnowageSuite.md)**
 
-#### CVE-2021-30057 - Stored HTML Injection vulnerability found in Knowage Suite version 7.1. An attacker can inject arbitrary HTML in "/restful-services/2.0/analyticalDrivers" via the 'LABEL' and 'NAME' parameters.
+#### CVE-2021-30057 : Stored HTML Injection vulnerability found in Knowage Suite version 7.1. An attacker can inject arbitrary HTML in "/restful-services/2.0/analyticalDrivers" via the 'LABEL' and 'NAME' parameters.
 
 - Go to **[CVE-2021-30057](HTLM-Injection-KnowageSuite.md)**
 
-#### CVE-2021-30058 - Knowage Suite before 7.4 is vulnerable to Cross-Site Script Inclusion (XSSI). An attacker can inject arbitrary external script in '/knowagecockpitengine/api/1.0/pages/execute' via the 'SBI_HOST' parameters.
+#### CVE-2021-30058 : Knowage Suite before 7.4 is vulnerable to cross-site scripting (XSS). An attacker can inject arbitrary external script in '/knowagecockpitengine/api/1.0/pages/execute' via the 'SBI_HOST' parameter.
 
 - Go to **[CVE-2021-30058](XSSI-KnowageSuite.md)**
 
@@ -30,4 +30,3 @@ Knowage ([https://www.knowage-suite.com](https://www.knowage-suite.com)) is the 
 - **2021-02-09**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
 - **2021-02-09**: Got instant response from Knowage development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
 - **2021-03-22**: Knowage Team fixed this issue in Knowage version 7.4.
-- **2021-03-30**: We have requested the CVE-ID to the MITRE
