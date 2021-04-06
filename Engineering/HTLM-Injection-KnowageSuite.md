@@ -1,5 +1,5 @@
 
-# Stored HTML Injection vulnerability found in Knowage Suite version 7.1. An attacker can inject arbitrary HTML in "/restful-services/2.0/analyticalDrivers" via the 'LABEL' and 'NAME' parameters.
+# CVE-2021-30057 - Stored HTML Injection vulnerability found in Knowage Suite version 7.1. An attacker can inject arbitrary HTML in "/restful-services/2.0/analyticalDrivers" via the 'LABEL' and 'NAME' parameters.
 
 ### Overview
 
@@ -15,7 +15,7 @@ An attacker can send HTML code through any vulnerable form field to change the d
 - **2021-02-09**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
 - **2021-02-09**: Got instant response from Knowage development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback.
 - **2021-03-22**: Knowage Team fixed this issue in Knowage version 7.4.0
-- **2021-03-30**: We have requested the CVE-ID to the MITRE
+- **2021-04-05**: I have obtained the [CVE-2021-30057](https://nvd.nist.gov/vuln/detail/CVE-2021-30057) and published the PoC
 
 ### Discovered by
 
