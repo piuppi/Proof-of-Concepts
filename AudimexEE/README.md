@@ -8,11 +8,11 @@ AudimexEE ([https://www.web-audimex.com/audimexee](https://www.web-audimex.com/a
  
 ### Proof of concept (POC)
 
-#### AudimexEE versions prior to 14.1.1 are vulnerable to SQL Injection. An attacker with limited privileges (auditor profile) can perform a SQL injection via the 'object_path' parameter, using a payload to trigger an 'error-based' or 'boolean-based blind', that can lead to data leakage.
+#### SQL Injection vulnerability in "Documents component" found in AudimexEE version 14.1.0 allows an attacker to execute arbitrary SQL commands via the object_path parameter.
 
 - Go to **[CVE-2020-28115](SQLInjection.md)**
 
-#### AudimexEE versions prior to 14.1.1 are vulnerable to Reflected XSS (Cross-Site-Scripting) if you don't set the recommended security configuration parameter "unique_error_numbers". This vulnerability allows remote attackers to inject arbitrary web scripts or HTML via the 'action, cargo and panel' parameters, that can lead to data leakage.
+#### AudimexEE before 14.1.1 is vulnerable to Reflected XSS (Cross-Site-Scripting). If the recommended security configuration parameter "unique_error_numbers" is not set, remote attackers can inject arbitrary web script or HTML via 'action, cargo, panel' parameters that can lead to data leakage.
 
 - Go to **[CVE-2020-28047](Reflected-XSS.md)**
 
