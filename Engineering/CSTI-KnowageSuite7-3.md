@@ -1,5 +1,5 @@
 
-# Knowage Suite 7.3 is vulnerable to Stored Client-Side Template Injection in '/knowage/restful-services/signup/update' via the 'name' parameter.
+# CVE-2021-30214: Knowage Suite 7.3 is vulnerable to Stored Client-Side Template Injection in '/knowage/restful-services/signup/update' via the 'name' parameter.
 
 ### Overview
 
@@ -17,6 +17,7 @@ The security impact depends on the nature of the vulnerable application, the typ
 - **2021-02-09**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
 - **2021-02-09**: Got instant response from Knowage development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback.
 - **2021-03-22**: Knowage Team fixed this issue in Knowage version 7.4.0
+- **2021-05-13**: I have obtained the [CVE-2021-30214](https://nvd.nist.gov/vuln/detail/CVE-2021-30214) and published the PoC
 
 ### Discovered by
 
