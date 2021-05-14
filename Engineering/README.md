@@ -26,6 +26,22 @@ Knowage ([https://www.knowage-suite.com](https://www.knowage-suite.com)) is the 
 
 - Go to **[CVE-2021-30058](XSSI-KnowageSuite.md)**
 
+#### CVE-2021-30211 : Knowage Suite 7.3 is vulnerable to Stored Cross-Site Scripting (XSS). An attacker can inject arbitrary web script in '/knowage/restful-services/signup/update' via the 'surname' parameter.
+
+- Go to **[CVE-2021-30211](Stored-XSS-KnowageSuite7-3-surname.md)**
+
+#### CVE-2021-30212 : Knowage Suite 7.3 is vulnerable to Stored Cross-Site Scripting (XSS). An attacker can inject arbitrary web script in '/knowage/restful-services/documentnotes/saveNote' via the 'nota' parameter.
+
+- Go to **[CVE-2021-30212](Stored-XSS-KnowageSuite7-3-notes.md)**
+
+#### CVE-2021-30213 : Knowage Suite 7.3 is vulnerable to unauthenticated reflected cross-site scripting (XSS). An attacker can inject arbitrary web script in '/servlet/AdapterHTTP' via the 'targetService' parameter.
+
+- Go to **[CVE-2021-30213](XSS-KnowageSuite7-3_unauth.md)**
+
+#### CVE-2021-30214 : Knowage Suite 7.3 is vulnerable to Stored Client-Side Template Injection in '/knowage/restful-services/signup/update' via the 'name' parameter.
+
+- Go to **[CVE-2021-30214](CSTI-KnowageSuite7-3.md)**
+
 ### Timeline
 - **2021-02-09**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
 - **2021-02-09**: Got instant response from Knowage development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback."
