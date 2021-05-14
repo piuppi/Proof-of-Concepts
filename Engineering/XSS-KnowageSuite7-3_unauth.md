@@ -1,5 +1,5 @@
 
-# Knowage Suite 7.3 is vulnerable to unauthenticated reflected cross-site scripting (XSS). An attacker can inject arbitrary web script in '/servlet/AdapterHTTP' via the 'targetService' parameter.
+# CVE-2021-30213: Knowage Suite 7.3 is vulnerable to unauthenticated reflected cross-site scripting (XSS). An attacker can inject arbitrary web script in '/servlet/AdapterHTTP' via the 'targetService' parameter.
 
 ### Overview
 
@@ -15,7 +15,7 @@ An attacker can use the vulnerability to construct a request that, if issued by 
 - **2021-02-09**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
 - **2021-02-09**: Got instant response from Knowage development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback.
 - **2021-03-22**: Knowage Team fixed this issue in Knowage version 7.4.0
-
+- **2021-05-13**: I have obtained the [CVE-2021-30213](https://nvd.nist.gov/vuln/detail/CVE-2021-30213) and published the PoC
 ### Discovered by
 
 #### [Gianluca Palma](https://www.linkedin.com/in/piuppi/) ([@piuppi](https://twitter.com/piuppi)) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
