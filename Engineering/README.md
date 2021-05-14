@@ -1,5 +1,5 @@
 
-# Vulnerabilities discovered in Knowage Suite ver 7.1
+# Vulnerabilities discovered in Knowage Suite ver 7.1 and 7.3
 
 ### Overview
 Knowage ([https://www.knowage-suite.com](https://www.knowage-suite.com)) is the Open Source Business Analytics Suite combining traditional and big data sources into valuable and meaningful information.
