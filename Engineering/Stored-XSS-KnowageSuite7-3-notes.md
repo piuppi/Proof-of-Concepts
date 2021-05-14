@@ -1,5 +1,5 @@
 
-# Knowage Suite 7.3 is vulnerable to Stored Cross-Site Scripting (XSS). An attacker can inject arbitrary web script in '/knowage/restful-services/documentnotes/saveNote' via the 'nota' parameter.
+# CVE-2021-30212: Knowage Suite 7.3 is vulnerable to Stored Cross-Site Scripting (XSS). An attacker can inject arbitrary web script in '/knowage/restful-services/documentnotes/saveNote' via the 'nota' parameter.
 
 ### Overview
 
@@ -15,6 +15,7 @@ An attacker can send Javascript code through any vulnerable form field to change
 - **2021-02-12**: Discovered and reported to [Knowage](https://www.knowage-suite.com)
 - **2021-02-12**: Got instant response from Knowage development team, "Thanks for your analysis report. We will evaluate your finding and get back to you soon with our feedback.
 - **2021-03-22**: Knowage Team fixed this issue in Knowage version 7.4.0
+- **2021-05-13**: I have obtained the [CVE-2021-30212](https://nvd.nist.gov/vuln/detail/CVE-2021-30212) and published the PoC
 
 ### Discovered by
 
