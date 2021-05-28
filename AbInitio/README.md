@@ -1,5 +1,5 @@
 
-# Vulnerabilities discovered in Ab Initio Control>Center Versions 4.0.3.0, 4.0.2.5
+# Vulnerabilities discovered in Ab Initio Control>Center 4.0.3.0 and 4.0.2.5
 
 ### Overview
 Ab Initio Software ([https://www.abinitio.com](https://www.abinitio.com)) is an American multinational enterprise software corporation based in Lexington, Massachusetts. The company specializes in high-volume data processing applications and enterprise application integration.
