@@ -1,4 +1,4 @@
-# Loading alternative JavaVM from CIFS share
+# Loading alternative JavaVM from SMB share
 
 Java.exe and javaw.exe support an undocumented-hidden command-line parameter "-XXaltjvm" and also "-J-XXaltjvm". This instructs Java to load an alternative JavaVM library (jvm.dll or libjvm.so) from the desired path.
 
