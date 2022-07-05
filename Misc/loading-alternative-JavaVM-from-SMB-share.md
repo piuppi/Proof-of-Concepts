@@ -10,3 +10,5 @@ Reference: [https://seclists.org/bugtraq/2010/Apr/80](https://seclists.org/bugtr
 
 ## PoC
 ![Screenshot](images/altjvm.jpg)
+
+..still works in 2022
