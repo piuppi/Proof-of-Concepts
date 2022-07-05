@@ -1,4 +1,4 @@
-# Java.exe "-XXaltjvm" parameter arbitrary dll loading from SMB share
+# Java "-XXaltjvm" parameter arbitrary dll loading from SMB share
 
 Java.exe and javaw.exe support an undocumented hidden command-line parameter "-XXaltjvm" and also "-J-XXaltjvm." This parameter instructs Java to load an alternative JavaVM library (jvm.dll or libjvm.so) from the desired SMB path.
 
