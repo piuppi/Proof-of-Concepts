@@ -1,4 +1,6 @@
 <svg width="500" height="500"
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  TEST
+<foreignObject width="500" height="500">
+  <img src=x>
+</foreignObject>
 </svg>
