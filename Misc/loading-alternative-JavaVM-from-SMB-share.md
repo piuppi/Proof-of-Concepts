@@ -12,4 +12,4 @@ Reference: [https://seclists.org/bugtraq/2010/Apr/80](https://seclists.org/bugtr
 ![Screenshot](images/altjvm.jpg)
 
 ..still works in 2022
-![](https://webhook.site/c109c2f1-2829-44ee-86e0-2c51a3c197af/dll.webp)
+![](images/1.svg)
