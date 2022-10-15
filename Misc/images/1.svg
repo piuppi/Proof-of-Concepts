@@ -4,7 +4,7 @@
           id="foo"/>
   <script type="text/javascript">
     // <![CDATA[
-      document.getElementById("foo").setAttribute("fill", "blue");
+      document.getElementById("foo").setAttribute("fill", "red");
    // ]]>
   </script>
 </svg>
