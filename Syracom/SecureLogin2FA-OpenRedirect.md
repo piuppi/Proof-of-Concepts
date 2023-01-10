@@ -84,7 +84,7 @@ the redirect is performed:
 
 ![Screenshot](images/7.png)
 
-at this stage the **secure Login 2FA plugin** asks the victim user to open the Authenticator app on their mobile device and enter the **OTP PIN** received, below:
+- ##### at this stage the **secure Login 2FA plugin** asks the victim user to open the Authenticator app on their mobile device and enter the **OTP PIN** received, below:
 
 ![Screenshot](images/8.png)
 
