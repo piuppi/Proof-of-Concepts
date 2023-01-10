@@ -36,7 +36,7 @@ The impacts of an open redirect vulnerability depend on how it is exploited and 
 - **2022-12-07**: I sent a reminder, _"Hi Team, I would like to know if I can proceed with the CVE request to MITRE, and if you could then kindly publish the security advisory on your site as I had requested"._
 - **2022-12-19**: Since November 16 I have not received a response, so I sent my decision, _"Hi Team, in the meantime it has been more than a month since you fixed the vulnerability. I understand that you are busy, which is why I thought your security advisory was not necessary, so I will send the CVE request to MITRE and publish a POC on my github account. Thank you and Best Regard, Gianluca"._
 - **2023-01-10**: I waited a few more days before publishing the poc today, hoping to get a response on the requested Security Advisory (_which I did not receive_).
-- **2020-01-10**: I requested the CVE to MITRE
+- **2023-01-10**: I requested the CVE to MITRE
 
 ### Discovered by
 
