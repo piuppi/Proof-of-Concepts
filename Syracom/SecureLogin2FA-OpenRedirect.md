@@ -20,7 +20,7 @@ The impacts of an open redirect vulnerability depend on how it is exploited and 
 
 ### Timeline
 - **2022-07-21**: Discovered and reported to Atlassian Security Team.
-- **2022-07-22**: In the meantime, I also opened a ticket to the plugin developer Syracom AG
+- **2022-07-22**: In the meantime, I also opened a ticket to the plugin developer Syracom AG.
 - **2022-07-22**: I added details to the Syracom ticket with a PoC in PDF format that I had also sent to Atlassian.
 - **2022-07-24**: Got mail from Syracom saying, _"Hello Gianluca, thank you very much for providing us with this security information. We already have access to all the information you provided to Atlassian. The next step for us is to check the functionality. Thanks for the detailed information! Best regards"._
 - **2022-07-25**: Got mail from Atlassian Security Team saying, _"Hi Gianluca Palma, We have also provided details to the developer of the plugin. Thank you for doing likewise. In case it helps our communication with the vendor is occurring via a ticket with an identifier of "AMS-*****". As this issue is not in Atlassian component we are now going to close this issue. Thank you for sending this notification to Atlassian"._
@@ -36,7 +36,7 @@ The impacts of an open redirect vulnerability depend on how it is exploited and 
 - **2022-12-07**: I sent a reminder, _"Hi Team, I would like to know if I can proceed with the CVE request to MITRE, and if you could then kindly publish the security advisory on your site as I had requested"._
 - **2022-12-19**: Since November 16 I have not received a response, so I have reached a conclusion, _"Hi Team, in the meantime it has been more than a month since you fixed the vulnerability. I understand that you are busy, which is why I thought your security advisory was not necessary, so I will send the CVE request to MITRE and publish a POC on my github account. Thank you and Best Regard, Gianluca"._
 - **2023-01-10**: I waited a few more days before publishing the poc today, hoping to get a response on the requested Security Advisory (_which I did not receive_).
-- **2023-01-10**: I requested the CVE to MITRE
+- **2023-01-10**: I requested the CVE to MITRE.
 
 ### Discovered by
 
