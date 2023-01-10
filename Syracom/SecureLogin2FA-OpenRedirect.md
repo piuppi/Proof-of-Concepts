@@ -96,7 +96,7 @@ Finally, the application performs the reindirect (302) to the URL established by
 
 ![Screenshot](images/10.png)
 
-But this PoC I used a Rick-rolling page :relaxed:
+But for this PoC I used a Rick-rolling link :relaxed:
 
 ![Screenshot](images/11.png)
 
