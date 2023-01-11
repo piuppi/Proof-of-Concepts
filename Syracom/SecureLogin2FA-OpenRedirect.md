@@ -1,4 +1,4 @@
-# The 'Secure Login (2FA) for Jira' plugin prior to version 3.1.1.0 is vulnerable to Open Redirect which would allow an attacker to redirect users to a website under his control, opening them up to a phishing attack (https://marketplace.atlassian.com/apps/1213472/secure-login-2fa-jira).
+# CVE-2023-22958: The 'Secure Login (2FA) for Jira' plugin prior to version 3.1.1.0 is vulnerable to Open Redirect which would allow an attacker to redirect users to a website under his control, opening them up to a phishing attack (https://marketplace.atlassian.com/apps/1213472/secure-login-2fa-jira).
 
 ### Overview
 **'Secure Login (2FA)'** is a Two-factor authentication (2FA) Plugin for Atlassian Tools developed by [Syracom AG](https://www.syracom.de), an independent business and IT consulting firm that is a [Atlassian](https://www.atlassian.com) Silver Solution Partner, where it focuses on designing efficient and durable business processes based on Atlassian tools.
@@ -37,6 +37,7 @@ The impacts of an open redirect vulnerability depend on how it is exploited and 
 - **2022-12-19**: Since November 16 I have not received a response, so I have reached a conclusion and I sent an email, _"Hi Team, in the meantime it has been more than a month since you fixed the vulnerability. I understand that you are busy, which is why I thought your security advisory was not necessary, so I will send the CVE request to MITRE and publish a POC on my github account. Thank you and Best Regard, Gianluca"._
 - **2023-01-10**: I waited a few more days before publishing the poc today, hoping to get a response on the requested Security Advisory (_which I did not receive_).
 - **2023-01-10**: I requested the CVE to MITRE.
+- **2023-01-11**:- I have obtained the [CVE-2023-22958](https://nvd.nist.gov/vuln/detail/CVE-2023-22958) and published the PoC
 
 ### Discovered by
 
