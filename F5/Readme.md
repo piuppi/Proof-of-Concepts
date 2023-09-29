@@ -5,6 +5,13 @@
 
 ### Security Advisory
 
+* #### [CVE-2023-36858](https://nvd.nist.gov/vuln/detail/CVE-2023-36858) - BIG-IP Edge Client for Windows and MacOS vulnerability
+  https://my.f5.com/manage/s/article/K000132563
+
+  An insufficient verification of data vulnerability exists in BIG-IP Edge Client for Windows and macOS that may allow an attacker to modify its configured server list.
+  ##### Impact
+  An authenticated attacker with local access to the BIG-IP Edge Client on a Windows or macOS system may modify the BIG-IP Edge Client's server list and direct traffic to a malicious system.
+
 * #### [CVE-2023-24461](https://nvd.nist.gov/vuln/detail/CVE-2023-24461) - BIG-IP Edge Client for Windows and MacOS vulnerability
   https://my.f5.com/manage/s/article/K000132539
 
