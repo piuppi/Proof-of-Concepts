@@ -9,7 +9,7 @@ LTB Self Service Password is an open-source PHP application that allows users to
  
 ### Vulnerability Details
 
-#### {RESERVED CVE}
+#### CVE-2023-49032
 LTB (a.k.a. LDAP Tool Box) Self Service Password before version 1.5.4 allows an unauthenticated attacker to Hijack the SMS verification code to an arbitrary phone number, which leads to changing the user's password without any notification.
 
 ### Reference
