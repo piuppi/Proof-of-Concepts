@@ -3,7 +3,7 @@ As a result of researching bugs, I often come across new and interesting vulnera
 
 # Security Researcher Acknowledgements:
 
-Microsoft, 2019 October - Microsoft, 2019 September - WSO2, 2020 September - Ab Initio Software, 2021 May - F5 Networks, 2023 May - F5 Networks, 2023 Aug
+Microsoft, 2019 October - Microsoft, 2019 September - WSO2, 2020 September - Ab Initio Software, 2021 May - F5 Networks, 2023 May - F5 Networks, 2023 Aug - Cisco Systems, Inc. 2024 Jun
 
 # My CVEs (*)
 
