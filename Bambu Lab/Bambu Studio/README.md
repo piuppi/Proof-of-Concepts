@@ -4,7 +4,7 @@
 Bambu Studio 2.1.1.52 and earlier is affected by a vulnerability that allows arbitrary code execution during application startup. The application loads a network plugin without validating its digital signature or verifying its authenticity. A local attacker can exploit this behavior by placing a malicious component in the expected location, which is controllable by the attacker (e.g., under %APPDATA%), resulting in code execution within the context of the user. The main application is digitally signed, which may allow a malicious component to inherit trust and evade detection by security solutions that rely on signed parent processes.
 
 ### Overview
-Bambu Lab (https://bambulab.com) is a consumer tech company focusing on desktop 3D printers. Starting with the X1 series, Bambu Lab builds state-of-the-art 3D printers that break the barriers between the digital and physical worlds, bringing creativity to a whole new level. Right now we have three sites located at Shenzhen and Shanghai in China and Austin, Texas of U.S.
+Bambu Lab (https://bambulab.com) is a consumer tech company focusing on desktop 3D printers. Starting with the X1 series, BambuLab builds state-of-the-art 3D printers that break the barriers between the digital and physical worlds, bringing creativity to a whole new level. Bambu Lab has three sites, located in Shenzhen and Shanghai, China, and Austin, Texas, U.S.
 
 ### Impact
 The following impacts describe realistic risks and attacker capabilities that can arise from this vulnerability. These are written to help defenders and risk owners prioritise mitigation.
