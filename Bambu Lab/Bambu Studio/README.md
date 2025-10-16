@@ -40,7 +40,7 @@ The following impacts describe realistic risks and attacker capabilities that ca
 
 A short demonstration video (PoC_CVE-2025-57521.mp4) is attached as a release asset. The recording shows the conditions and observable result, it is intended for review by vendors, CERTs and defenders.
 
-[Watch the PoC video](videos/PoC_CVE-2025-57521.mp4)
+[![Watch the PoC video](https://img.youtube.com/vi/GaDVkwocIG4/0.jpg)](https://www.youtube.com/watch?v=GaDVkwocIG4D)
 
 ### Remediation Recommendations
 
