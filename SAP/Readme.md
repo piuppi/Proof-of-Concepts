@@ -19,7 +19,7 @@ This repository contains the public disclosure and technical documentation for *
 
 ## Repository contents
 
-- 📄 **Reference** → [`CVE-2026-0487.md`](CVE-2026-0487.md)
+- 📄 **Technical Details** → [`CVE-2026-0487.md`](CVE-2026-0487.md)
 
 ## Timeline
 
