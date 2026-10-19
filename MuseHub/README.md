@@ -11,7 +11,7 @@
 
 ## Summary
 
-MuseHub for Windows versions prior to 3.4.0 (2335) contain a local privilege escalation vulnerability in MuseHubUpdaterService. The service runs as NT AUTHORITY\SYSTEM and exposes an unauthenticated named pipe, `\\.\pipe\Muse.Updater.Pipe`, that grants read and write access to local users. The `UpdateMuseHub` request handler accepts a caller-controlled executable path, validates only the executable's Muse Group Authenticode signature, and launches it with SYSTEM privileges. A local attacker can copy a validly signed executable to a user-writable directory, place a malicious DLL alongside it, and invoke the handler through the named pipe. Due to DLL search order behavior, the executable loads the attacker-controlled DLL, allowing arbitrary code execution as NT AUTHORITY\SYSTEM and local privilege escalation. The vulnerability was tested on MuseHub for Windows 2.9.3 (2300) and fixed in version 3.4.0 (2335).
+MuseHub for Windows versions prior to 3.4.0 (2335) contain a local privilege escalation vulnerability in MuseHubUpdaterService. The service runs as NT AUTHORITY\SYSTEM and exposes an unauthenticated named pipe, `\\.\pipe\Muse.Updater.Pipe`, that grants read and write access to local users. The `UpdateMuseHub` request handler accepts a caller-controlled executable path, validates only the executable's Muse Group Authenticode signature, and launches it with SYSTEM privileges. A local attacker can copy a validly signed executable to a user-writable directory, place a malicious DLL alongside it, and invoke the handler through the named pipe. Due to DLL search order behavior, the executable loads the attacker-controlled DLL, allowing arbitrary code execution as NT AUTHORITY\SYSTEM and local privilege escalation.
 
 ## Impact
 
