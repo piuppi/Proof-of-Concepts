@@ -45,7 +45,11 @@ Update MuseHub for Windows to version `3.4.0 (2335)` or later.
 
 ## Credit
 
-Reported by **[Gianluca Palma (piuppi)](https://www.linkedin.com/in/piuppi) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)**.
+Discovered and responsibly disclosed by:
+
+[Gianluca Palma](https://www.linkedin.com/in/piuppi/) ([@piuppi](https://twitter.com/piuppi)) of [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
+
+![Screenshot](images/MuseHub-acknowledges.png)
 
 ## References
 
