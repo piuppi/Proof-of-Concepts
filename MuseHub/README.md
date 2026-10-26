@@ -29,7 +29,7 @@ A local, low-privileged user can escalate privileges to **`NT AUTHORITY\SYSTEM`*
 Update MuseHub for Windows to version `3.4.0 (2335)` or later.
 
 ## PoC video
-
+https://github.com/user-attachments/assets/552111a2-7d41-4819-b324-3ff396919883
 
 ## Timeline
 
