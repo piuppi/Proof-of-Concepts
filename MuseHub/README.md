@@ -1,4 +1,4 @@
-# MuseHub - Local Privilege Escalation to SYSTEM
+# CVE-2026-117338: MuseHub (Muse Group) Local Privilege Escalation to SYSTEM
 
 - **Severity:** High
 - **CVSS v3.1:** 7.8 - `CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H`
@@ -56,4 +56,4 @@ Discovered and responsibly disclosed by:
 ## References
 
 - **Vendor changelog:** https://support.musehub.com/en/articles/17327414-windows-changelog#h_7d60fe0a42
-- **CVE record:** To be added once the CVE ID is assigned and the record is published.
+- **CVE record:** [CVE-2026-117338](https://www.cve.org/CVERecord?id=CVE-2026-117338)
