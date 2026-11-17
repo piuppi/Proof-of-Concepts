@@ -44,6 +44,7 @@ https://github.com/user-attachments/assets/552111a2-7d41-4819-b324-3ff396919883
 | 29/09/2026 | Fix confirmed using the release-candidate build provided by the MuseHub team |
 | 29/09/2026 | Public release of MuseHub `3.4.0 (2335)`, fixing the vulnerability and crediting the reporter |
 | 19/10/2026 | Public advisory published in coordination with the MuseHub support team |
+| 06/11/2026 | MITRE reserved CVE-2026-117338; pending publication |
 
 ## Credit
 
